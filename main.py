@@ -13,3 +13,7 @@ def soma(x: int, y: int):
 @app.get("/divisao/")
 def soma(x: int, y: int):
     return {"divisão": x / y}
+
+@app.get("/subtracao/")
+def soma(x: int, y: int):
+    return {"subtração": x - y}
